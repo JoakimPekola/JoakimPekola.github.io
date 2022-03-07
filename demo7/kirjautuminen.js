@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", onkokirjautunut);
+document.getElementById("ulos").style.display = "none";
 function onkokirjautunut(){
     
     if(localStorage.getItem("kirjautunut") ==='kylla'){
