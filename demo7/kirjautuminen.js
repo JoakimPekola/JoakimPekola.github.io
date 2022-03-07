@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", onkokirjautunut);
-let a
+
 function onkokirjautunut(){
     
     if(localStorage.getItem("kirjautunut") ==='kylla'){
@@ -10,12 +10,9 @@ function onkokirjautunut(){
         
     }
 }
-function kirjaudulos(){
-    
+function kirjaudulos(){   
         document.getElementById("kirjaudu_ulos").style.display="none";
         localStorage.clear()
-    
-    
 }
 function kirjaudu(){
     localStorage.setItem("nimi",  document.getElementById("nimi").value);
