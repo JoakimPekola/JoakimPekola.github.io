@@ -4,16 +4,15 @@ function onkokirjautunut(){
     
     if(localStorage.getItem("kirjautunut") ==='kylla'){
         document.getElementById("tevetuloa_teksti").textContent += " " + localStorage.getItem("nimi");
-        a = 2
+        document.getElementById("kirjaudu_ulos").style.display="block";
+        
         
     }
 }
 function kirjaudulos(a){
     if(a===1){
-        document.getElementById("kirjaudu_ulos").style.display="";
-    }else{
-            document.getElementById("kirjaudu_ulos").style.display="block";
-        }
+        document.getElementById("kirjaudu_ulos").style.display="none";
+    }
     
 }
 function kirjaudu(){
