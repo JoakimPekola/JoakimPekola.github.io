@@ -7,5 +7,5 @@ function onkokirjautunut(){
 }
 
 function kirjaudu(){
-    localStorage.setItem("nimi", "joakim")
+    localStorage.setItem("nimi",  document.getElementById("nimi").value);
 }
