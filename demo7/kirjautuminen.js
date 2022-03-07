@@ -5,3 +5,7 @@ function onkokirjautunut(){
         document.getElementById('tevetuloa_teksti').textContent += ' Joakim!';
     }
 }
+
+function kirjaudu(){
+    localStorage.setItem("nimi", "joakim")
+}
