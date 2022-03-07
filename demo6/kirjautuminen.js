@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", onkokirjautunut);
 function onkokirjautunut(){
-    let kirjautunut = 'kylla';
-    if(kirjautunut ==='kylla'){
+    let kirjautunut = 'k';
+    if(kirjautunut ==='k'){
         document.getElementById('tevetuloa_teksti').textContent += ' Joakim!';
     }
 }
