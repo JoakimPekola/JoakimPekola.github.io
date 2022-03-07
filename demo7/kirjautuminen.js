@@ -10,7 +10,7 @@ function onkokirjautunut(){
 }
 function kirjaudulos(a){
     if(a===1){
-        document.getElementById("kirjaudu_ulos").style.display="none";
+        document.getElementById("kirjaudu_ulos").style.display="";
     }else{
             document.getElementById("kirjaudu_ulos").style.display="block";
         }
