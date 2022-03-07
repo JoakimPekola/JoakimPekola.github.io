@@ -13,6 +13,7 @@ function onkokirjautunut(){
 function kirjaudulos(a){
     if(a===1){
         document.getElementById("kirjaudu_ulos").style.display="none";
+        localStorage.clear()
     }
     
 }
