@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", onkokirjautunut);
+document.addEventListener("DOMContentLoaded", onkokirjautunut,kirjaudulos);
 
 function onkokirjautunut(){
     
