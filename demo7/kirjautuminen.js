@@ -12,7 +12,7 @@ function onkokirjautunut(){
 }
 function kirjaudulos(){   
         document.getElementById("kirjaudu_ulos").style.display="none";
-        localStorage.clear()
+        localStorage.clear();
 }
 function kirjaudu(){
     localStorage.setItem("nimi",  document.getElementById("nimi").value);
