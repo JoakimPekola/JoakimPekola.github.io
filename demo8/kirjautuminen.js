@@ -6,8 +6,7 @@ function onkokirjautunut(){
         document.getElementById("tevetuloa_teksti").textContent += " " + localStorage.getItem("nimi");
         document.getElementById("kirjautumis_lomake").style.display="none";
         document.getElementById("kirjaudu_ulos").style.display="block";
-        
-        
+    
     }
 }
 function kirjaudulos(){   
